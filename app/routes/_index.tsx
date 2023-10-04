@@ -17,5 +17,9 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  return <div>Hello! from ${SITE_TITLE}!</div>;
+  return (
+    <div className="font-mono w-full h-full flex justify-center items-center text-4xl">
+      Hello! from ${SITE_TITLE}!
+    </div>
+  );
 }
