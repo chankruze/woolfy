@@ -73,6 +73,6 @@
 
   html,
   body {
-    @apply bg-background text-foreground h-full w-full;
+    @apply h-full w-full bg-background text-foreground;
   }
 }
